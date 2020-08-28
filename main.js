@@ -1,13 +1,12 @@
 let binary = document.querySelector('.binary');
 let decimal = document.querySelector('.decimal');
-let error =  document.querySelector('.error');
 
 document.querySelector('.btn').addEventListener('click',binToDec);
 
 function binToDec(e){
     e.preventDefault();
     // Reverse string
-    const reversed = parseInt(binary.value.split('').reverse());
+    const reversed = binary.value.split('').reverse();
     let total = 0;
 
     for (let i = 0; i < reversed.length; i++){
