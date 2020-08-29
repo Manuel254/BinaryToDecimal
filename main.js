@@ -4,7 +4,7 @@ let decimal = document.querySelector('.decimal');
 document.querySelector('.btn').addEventListener('click',binToDec);
 
 function binToDec(e){
-    e.preventDefault();
+//     e.preventDefault();
     // Reverse string
     const reversed = binary.value.split('').reverse();
     let total = 0;
