@@ -16,5 +16,5 @@ function binToDec(e){
 //         total = total + (reversed[i] * power);
 //     }
 //     decimal.value = total;
-    decimal.value = ParseInt(binary.value,2);
+    decimal.value = parseInt(binary.value,2);
 }
